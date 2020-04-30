@@ -25,5 +25,4 @@ public class Main {
         Swordsman clonedSwordsman = (Swordsman) swordsman.clone();
         System.out.println(clonedSwordsman);
     }
-    
 }
