@@ -40,10 +40,13 @@ public abstract class GameUnit implements Cloneable{
         
         return unit;
     }
+//    Initializes or resets mutable states of shared properties (properties
+//    (properties of a superclass)
     protected void initialize(){
         this.position = Point3D.ZERO;
         reset();
     }
+//    Initializes or resets mutable states of instance-specific properties
     protected abstract void reset();
     
 }
